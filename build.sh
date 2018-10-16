@@ -17,7 +17,7 @@ sh $(dirname $0)/openssl/build.sh ${DEVTOOLS}
 sh $(dirname $0)/python/build.sh ${DEVTOOLS}
 sh $(dirname $0)/boost/build.sh ${DEVTOOLS}
 sh $(dirname $0)/node.js/build.sh ${DEVTOOLS}
-
+sh $(dirname $0)/libusb/build.sh ${DEVTOOLS}
 
 
 

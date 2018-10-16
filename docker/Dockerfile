@@ -3,7 +3,7 @@ FROM ubuntu:16.04
 
 RUN apt-get -y update
 RUN apt-get -y upgrade
-RUN apt-get -y install build-essential clang git make curl bash zlib1g-dev
+RUN apt-get -y install build-essential autoconf libtool libudev-dev clang git make curl bash zip unzip zlib1g-dev
 
 RUN curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | bash
 RUN apt-get install git-lfs
