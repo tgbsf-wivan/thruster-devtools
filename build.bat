@@ -32,14 +32,11 @@ call "%PWD%\boost\build_boost.bat" "%DEVTOOLS_DIR%"
 REM building node.js
 call "%PWD%\node.js\build_node.bat" "%DEVTOOLS_DIR%"
 
+REM building libusb
+call "%PWD%\libusb\build_libusb.bat" "%DEVTOOLS_DIR%"
 
-
-
-
-
-
-
-
+REM building gstreamer
+call "%PWD%\gstreamer\build_gstreamer.bat" "%DEVTOOLS_DIR%"
 
 pause
 exit 0
