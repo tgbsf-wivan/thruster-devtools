@@ -7,5 +7,5 @@ echo installing python ...
 move "%1\python37" "%1\python"
 set PATH="%1\python";%PATH%
 
-python -m pip install %ROOT%\PySide2-5.11.1a1.dev1530588877-5.11.1-cp35.cp36.cp37-none-win_amd64.whl
+python -m pip install %ROOT%\PySide2-5.12.1-5.12.1_1-cp35.cp36.cp37-none-win_amd64.whl
 
