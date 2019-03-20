@@ -38,6 +38,9 @@ call "%PWD%\libusb\build_libusb.bat" "%DEVTOOLS_DIR%"
 REM building gstreamer
 call "%PWD%\gstreamer\build_gstreamer.bat" "%DEVTOOLS_DIR%"
 
+REM building cuda
+call "%PWD%\cuda\build_cuda.bat" "%DEVTOOLS_DIR%"
+
 pause
 exit 0
 
